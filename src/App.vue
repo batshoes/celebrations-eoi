@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Celebrations Ultra-Premium Collection" src="./assets/Pokemon_TCG_Celebrations_Ultra-Premium_Collection.png">
+  <ExpressionsOfInterest msg="Acrylic Display - Expressions of Interest"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ExpressionsOfInterest from './components/ExpressionOfInterest.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ExpressionsOfInterest
   }
 }
 </script>
@@ -22,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  width: 70%;
 }
 </style>
