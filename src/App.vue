@@ -1,15 +1,18 @@
 <template>
   <img alt="Celebrations Ultra-Premium Collection" src="./assets/Pokemon_TCG_Celebrations_Ultra-Premium_Collection.png">
   <ExpressionsOfInterest msg="Acrylic Display - Expressions of Interest"/>
+  <ContactUs />
 </template>
 
 <script>
 import ExpressionsOfInterest from './components/ExpressionOfInterest.vue'
+import ContactUs from './components/ContactUs.vue'
 
 export default {
   name: 'App',
   components: {
-    ExpressionsOfInterest
+    ExpressionsOfInterest,
+    ContactUs
   }
 }
 </script>
