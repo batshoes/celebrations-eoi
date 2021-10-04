@@ -13,9 +13,9 @@
 <script>
 import emailjs from 'emailjs-com';
 console.log(process.env.VUE_APP_ENV_TEST)
-console.log(process.env.VUE_APP_EOI_EMAIL_JS_USER_ID)
-console.log(process.env.VUE_APP_EOI_EMAIL_TEMPLATE_ID)
-console.log(process.env.VUE_APP_EOI_EMAIL_SERVICE_ID)
+// console.log(process.env.VUE_APP_EOI_EMAIL_JS_USER_ID)
+// console.log(process.env.VUE_APP_EOI_EMAIL_TEMPLATE_ID)
+// console.log(process.env.VUE_APP_EOI_EMAIL_SERVICE_ID)
 export default {
   methods: {
     sendEmail() {
